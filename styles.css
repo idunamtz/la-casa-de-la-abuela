@@ -1,0 +1,145 @@
+body {
+    font-family: 'Lobster', cursive;
+    margin: 0;
+    padding: 0;
+    background: url('LaCasaDeLA.jpg') center/cover fixed no-repeat; 
+    color: #333;
+}
+
+
+header {
+    background: url('LaCasaDeLA.jpg') center/cover fixed no-repeat; 
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+nav {
+    background-color: #940370;
+    padding: 10px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ff66b2;
+}
+
+/* Estilo para los enlaces de navegación */
+li:not(:last-child) a::after {
+    content: "|";
+    margin-left: 10px;
+    color: #ff66b2;
+}
+
+section {
+    padding: 20px;
+    text-align: center; /* Alineamos el texto al centro en las secciones */
+}
+
+/* Estilo para los títulos en las secciones */
+h1, h2, h3 {
+    font-family: 'Pacifico', cursive;
+}
+
+h2 {
+    border-bottom: 2px solid #db006e;
+    padding-bottom: 10px;
+    color: #db006e;
+}
+
+h3 {
+    color: #940370;
+}
+
+/* Estilo para el formulario de reservas */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #940370;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #db006e;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #db006e;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #940370;
+}
+
+/* Estilo para las imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#inicio img,
+#menu img {
+    width: 70%; /* Ajustamos el ancho y lo centramos */
+    display: block;
+    margin: 0 auto;
+}
+
+/* Decoraciones adicionales */
+footer {
+    background-color: #db006e;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo para el fondo de las secciones */
+#inicio,
+#menu,
+#reservas,
+#contacto {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+
+.red-social {
+        width: 30px; 
+        margin: 0 10px; 
+
+ }
+
+}
+

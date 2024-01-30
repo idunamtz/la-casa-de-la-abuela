@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>La Casa de la Abuela</title>
+</head>
+<body>
+    <header>
+        <h1 class="titulo-destacado">La casa de la Abuela</h1>
+        <p class="descripcion-destacada">¡Sabor tradicional que te hara sentir como en casa!</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#menu">Menú</a></li>
+            <li><a href="#reservas">Reservas</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+
+        </ul>
+    </nav>
+
+    <section id="inicio">
+        <h2>Bienvenidos a La Casa de la Abuela</h2>
+        <p>Disfruta de auténtica comida mexicana con sabores tradicionales que te recordarán a casa.</p>
+    </section>
+
+    <section id="menu">
+        <h2>Nuestro Menú</h2>
+        <h3>HUEVOS</h3>
+        <h4>Abuelita Americana</h4>
+        <p>Huevos estrellados, Tocino, Hot Cakes, Maple.</p>
+        <h4>Abuelitos Divorciados</h4>
+        <p>Huevos estrellados rojos y verdes, Frijoles, Panela, Nopal, Asado.</p>
+        <h4>Nieto Estrellados</h4>
+        <p>Acompañados con Frijoles y Tocino.</p>
+        <h4>Ranchero Chidos</h4>
+        <p>Huevo sobre una cama de tortilla, Bañada sobre deliciosa salsa, acompañado de salsa mexicana.</p>
+
+    </section>
+
+    <section id="reservas">
+        <h2>Reservas</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="numeroPersonas">Número de Personas:</label>
+            <input type="number" id="numeroPersonas" name="numeroPersonas" min="1" required>
+
+            <label for="detalles">Detalles adicionales:</label>
+            <textarea id="detalles" name="detalles" rows="4"></textarea>
+
+            <input type="submit" value="Enviar Reserva">
+        </form>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <h3>Paúl Gutiérrez Barragan cel: 33-12-79-06-91</h3>
+        <h4>Redes Sociales: @Casa de la Abuela</h4>
+
+        <img src="Logo_de_Facebook.png" alt="Facebook" class="red-social">
+    <img src="Instagram_icon.png" alt="Instagram" class="red-social">
+    </section>
+
+    <footer>
+        <p>&copy; 2024 La Casa de la Abuela. Todos los derechos reservados.</p>
+    </footer>
+    
+</body>
+</html>
